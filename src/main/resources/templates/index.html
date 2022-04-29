@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>application</title>
+
+    <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}"/>
+</head>
+<body>
+<div class="container">
+    <nav class="a navbar-brand sticky-top " >
+    <img th:src="@{https://media-exp1.licdn.com/dms/image/C4D0BAQHI9PnN-CLvdQ/company-logo_200_200/0/1593181954849?e=2147483647&v=beta&t=cnDk8JnVre5jQ2AcAsQv0MHLYk375a-suIXEos6jZTQ}" th:width="100" th:height="100" style="border-radius: 50%" >
+    <a th:href="@{/}" class="text-center  pl-5">Intern Manager</a>
+</nav>
+</div>
+
+<div class="container-fluid text-center">
+    <h1 style="text-align: center">Nasia Tech Intern Management System</h1>
+    <a th:href="@{/interns}" class="h2 btn btn-primary">Manage Interns</a>
+</div>
+
+</body>
+</html>
